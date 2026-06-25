@@ -25,8 +25,6 @@ scrollBtn.addEventListener('click', () => window.scrollTo({top:0, behavior:'smoo
 
 const form = document.getElementById("contactForm");
 
-const form = document.getElementById("contactForm");
-
 if (form) {
   form.addEventListener("submit", async function (e) {
     e.preventDefault();

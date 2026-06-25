@@ -55,3 +55,32 @@ body {
     background:rgba(0,0,0,.15);
     backdrop-filter:blur(12px);
 }
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.nav-links li a:hover {
+    color: #ff6f61;
+}
+.active{
+    color:#ff6f61;
+    border-bottom:2px solid #ff6f61;
+}
+.card-grid{
+    display:flex;
+    justify-content:center;
+    align-items:stretch;
+    gap:20px;
+    flex-wrap:wrap;
+}
