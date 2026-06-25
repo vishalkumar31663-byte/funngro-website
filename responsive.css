@@ -1,0 +1,86 @@
+@media screen and (max-width: 768px) {
+
+    /* Navbar */
+    .navbar{
+        flex-direction:column;
+        align-items:center;
+        padding:15px;
+        gap:15px;
+    }
+
+    .nav-links{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        gap:15px;
+        width:100%;
+    }
+
+    .nav-links li{
+        width:100%;
+        text-align:center;
+    }
+
+    .nav-links li a{
+        display:block;
+        padding:10px;
+    }
+
+    /* Hero Section */
+    .hero{
+        padding:60px 20px;
+    }
+
+    .hero h1{
+        font-size:2rem;
+    }
+
+    .hero p{
+        font-size:1rem;
+    }
+
+    /* Buttons */
+    .btn{
+        display:block;
+        width:90%;
+        margin:15px auto;
+        text-align:center;
+    }
+
+    /* Cards */
+    .card-grid{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .card{
+        width:90%;
+        margin:10px 0;
+    }
+
+    /* Forms */
+    form{
+        width:100%;
+    }
+
+    input,
+    textarea,
+    button{
+        width:100%;
+        box-sizing:border-box;
+        margin-bottom:15px;
+    }
+
+    /* Logo */
+    .logo img{
+        height:45px;
+    }
+
+    /* Footer */
+    footer{
+        text-align:center;
+        padding:20px;
+    }
+
+}
